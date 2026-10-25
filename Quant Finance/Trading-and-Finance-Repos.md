@@ -1,7 +1,6 @@
 # Trading & Finance Repositories
 
 Ordered by priority for building or studying systematic / AI-assisted trading systems (production engine and accurate simulation first; retail UI and commercial products last).
-
 按优先级排列：生产级引擎与准确仿真优先，零售界面与商业产品靠后。
 
 ---
@@ -111,3 +110,10 @@ Commercial screener / research / journaling workspace (US, HK, A-shares, etc.) w
 
 **Value:** Product reference for decision workflow UX; paid SaaS, not open source.
 **价值：** 决策流程产品 UX 参考；付费 SaaS，非开源。
+
+---
+
+## Related non-repo material / 相关非仓库材料
+
+See [Quant-Trading-Resources.md](Quant-Trading-Resources.md) for MicroWorld, awesome-quant, ML-Quant, QuantStart, QuantConnect, etc.
+世界模型、策展列表、周更论文、QuantStart、QuantConnect 等见 [Quant-Trading-Resources.md](Quant-Trading-Resources.md)。
