@@ -14,15 +14,15 @@ Curated notes and resources, organised by domain.
 
 ## Current contents
 
-- **Quant Finance** — Hull textbook note; [Trading & Finance repos](Quant%20Finance/Trading-and-Finance-Repos.md)
+- **Quant Finance** — [Beginner path](Quant%20Finance/Beginner-Path.md) (math + finance + quant entry); Hull; [Trading & Finance repos](Quant%20Finance/Trading-and-Finance-Repos.md)
 - **Pure Mathematics** — placeholder
-- **Software Engineering** — CS50; VPN/VPS; [agent / vibe coding courses](Software%20Engineering/Agent-and-Vibe-Coding.md); [build-your-own-x](Software%20Engineering/Build-Your-Own-X.md)
-- **Artificial Intelligence** — agents & APIs notes; [agentic skills](Artificial%20Intelligence/Agentic-Skills.md); [harness frameworks](Artificial%20Intelligence/Harness-Frameworks.md); [LLM learning](Artificial%20Intelligence/LLM-Learning.md)
+- **Software Engineering** — CS50; VPN/VPS; [agent / vibe coding](Software%20Engineering/Agent-and-Vibe-Coding.md); [build-your-own-x](Software%20Engineering/Build-Your-Own-X.md)
+- **Artificial Intelligence** — agents & APIs; [agentic skills](Artificial%20Intelligence/Agentic-Skills.md); [harness](Artificial%20Intelligence/Harness-Frameworks.md); [LLM learning](Artificial%20Intelligence/LLM-Learning.md)
 - **Tools** — [useful tools](Tools/Useful-Tools.md)
 
 ## Conventions
 
 - Prefer primary sources and official documentation.
 - Brief notes: what it is, what it is for, why it matters.
-- Descriptions use English + Chinese (each sentence followed by its translation).
+- Descriptions use English + Chinese (each sentence followed by its translation) where applicable.
 - Keep each note focused; expand by new files rather than sprawling pages.
