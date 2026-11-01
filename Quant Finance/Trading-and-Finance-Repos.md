@@ -3,6 +3,9 @@
 Ordered by priority for building or studying systematic / AI-assisted trading systems (production engine and accurate simulation first; retail UI and commercial products last).
 按优先级排列：生产级引擎与准确仿真优先，零售界面与商业产品靠后。
 
+Sources include curated picks and high-signal items from the maintainer’s GitHub stars.
+来源含策展选型与维护者 GitHub stars 中的高信号项。
+
 ---
 
 ## 1. [nautilus_trader](https://github.com/nautechsystems/nautilus_trader)
@@ -31,89 +34,121 @@ Models feed latency, order latency, and queue position for fills; supports multi
 
 ---
 
-## 3. [anthropics/financial-services](https://github.com/anthropics/financial-services)
+## 3. [hikyuu](https://github.com/fasiondog/hikyuu)
+
+High-performance quant framework (C++ core + Python) focused on strategy analysis and very fast backtesting.
+高性能量化框架（C++ 核心 + Python），侧重策略分析与极速回测。
+
+Strong China-market research workflow orientation.
+对 A 股等研究工作流较友好。
+
+**Value:** Engine alternative when you need speed and a mature CN-oriented quant stack.
+**价值：** 需要速度与成熟中文市场向栈时的引擎备选。
+
+---
+
+## 4. [FinRL-Trading](https://github.com/AI4Finance-Foundation/FinRL-Trading)
+
+AI-native modular infrastructure for quantitative trading from the FinRL / AI4Finance line (FinRL-X).
+AI4Finance 路线的 AI 原生模块化量化交易基础设施（FinRL-X）。
+
+**Value:** Bridge between RL/ML research code and trading-system modularity.
+**价值：** 连接 RL/ML 研究代码与交易系统模块化。
+
+---
+
+## 5. [gs-quant](https://github.com/goldmansachs/gs-quant)
+
+Goldman Sachs open Python toolkit for quantitative finance (risk, pricing-oriented building blocks).
+高盛开源的量化金融 Python 工具包（风险、定价向积木）。
+
+**Value:** Institutional library shape and API taste; study patterns even if you do not run GS workflows.
+**价值：** 机构库形态与 API 品味；即使不跑高盛流程也可学其模式。
+
+---
+
+## 6. [anthropics/financial-services](https://github.com/anthropics/financial-services)
 
 Anthropic reference agents, skills, and connectors for investment banking, equity research, PE, and wealth workflows.
 Anthropic 面向投行、股票研究、PE 与财富管理的参考 Agent、Skills 与数据连接器。
 
-Installable as Claude Cowork plugins or deployable via Managed Agents API (pitch, earnings, comps, DCF-style workflows).
-可作为 Claude Cowork 插件安装，或通过 Managed Agents API 部署（路演、财报、可比公司、DCF 类流程）。
-
-**Value:** Institutional FSI agent patterns from a major lab; strong template for regulated-style research automation.
-**价值：** 来自主流实验室的机构金融 Agent 范式，适合受监管风格的研究自动化模板。
+**Value:** Institutional FSI agent patterns from a major lab.
+**价值：** 来自主流实验室的机构金融 Agent 范式。
 
 ---
 
-## 4. [TradingAgents](https://github.com/TauricResearch/TradingAgents)
+## 7. [TradingAgents](https://github.com/TauricResearch/TradingAgents)
 
 Multi-agent LLM trading framework that mirrors a desk: fundamental, sentiment, technical analysts, trader, and risk roles.
 多智能体 LLM 交易框架，结构类似交易台：基本面、情绪、技术分析、交易员与风控角色。
-
-Agents debate and escalate to portfolio decisions; multi-provider LLM support; research-oriented with paper/simulation focus.
-Agent 辩论并上升至组合决策；支持多 LLM 提供商；偏研究与模拟。
 
 **Value:** Clear multi-agent trading research scaffold with published design (arXiv).
 **价值：** 结构清晰的多智能体交易研究脚手架，有公开论文设计。
 
 ---
 
-## 5. [TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN)
+## 8. [TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN)
 
 Chinese-enhanced multi-agent stock research system derived from TradingAgents, oriented to A-shares (also HK/US).
 基于 TradingAgents 的中文增强多智能体股票研究系统，面向 A 股（亦支持港股/美股）。
-
-Debate-style single-stock research, NL screening, paper trading and learning materials; explicitly for study/research, not live advice.
-辩论式个股研究、自然语言筛选、模拟交易与学习材料；明确用于学习研究，非实盘建议。
 
 **Value:** Best-fit entry for Chinese-market multi-agent research and teaching.
 **价值：** 中文市场多智能体研究与教学的优先入口。
 
 ---
 
-## 6. [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)
+## 9. [OpenAlice](https://github.com/TraderAlice/OpenAlice)
+
+AI trading agent product covering equities, crypto, commodities, forex, and macro — research through position lifecycle.
+覆盖股、加密、商品、外汇与宏观的 AI 交易 Agent 产品：从研究到持仓生命周期。
+
+**Value:** End-to-end “one-person desk” agent product reference (starred; evaluate claims carefully).
+**价值：** 端到端「一人交易台」Agent 产品参考（来自 stars；主张需自行验证）。
+
+---
+
+## 10. [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)
 
 Personal trading-agent product stack (LLM + tools + backtest + UI) from HKUDS.
 港大数据科学团队的个人交易 Agent 产品栈（LLM + 工具 + 回测 + 界面）。
 
-Large community project covering quant libraries, agents, and desktop/frontend surfaces.
-大型社区项目，覆盖量化库、Agent 与桌面/前端。
-
-**Value:** End-to-end “agent + trading” product reference; high activity, not a minimal research library.
-**价值：** 端到端「Agent + 交易」产品参考；活跃度高，非最小研究库。
+**Value:** End-to-end “agent + trading” product reference; high activity.
+**价值：** 端到端「Agent + 交易」产品参考；活跃度高。
 
 ---
 
-## 7. [free-stockdb](https://github.com/hello245m/free-stockdb)
+## 11. [free-stockdb](https://github.com/hello245m/free-stockdb)
 
-Local-first A-share quant data engine: daily/minute (and related) bars, incremental sync, adjust factors, indicators, multiple query APIs (Python/HTTP/Excel/MCP).
-本地优先的 A 股量化数据引擎：日/分钟等 K 线、增量同步、复权、指标，以及多种查询方式（Python/HTTP/Excel/MCP）。
+Local-first A-share quant data engine: daily/minute bars, incremental sync, adjust factors, indicators, multiple query APIs.
+本地优先的 A 股量化数据引擎：日/分钟 K、增量同步、复权、指标与多种查询 API。
 
 **Value:** Removes remote API rate limits for full-market local research on China equities.
-**价值：** 让 A 股全市场本地研究摆脱远程 API 限频约束。
+**价值：** 让 A 股全市场本地研究摆脱远程 API 限频。
 
 ---
 
-## 8. [OpenStock](https://github.com/Open-Dev-Society/OpenStock)
+## 12. [OpenStock](https://github.com/Open-Dev-Society/OpenStock)
 
-Open-source stock web app (Next.js + Finnhub + TradingView): search, watchlists, charts, company views as a free alternative to paid terminals.
-开源股票 Web 应用（Next.js + Finnhub + TradingView）：搜索、自选、图表与公司视图，作为付费终端的免费替代。
+Open-source stock web app (Next.js + Finnhub + TradingView).
+开源股票 Web 应用（Next.js + Finnhub + TradingView）。
 
-**Value:** Solid full-stack market UI reference; not an execution or HFT engine.
-**价值：** 扎实的全栈行情界面参考；非执行或高频引擎。
-
----
-
-## 9. [KovaView](https://kovaview.com/)
-
-Commercial screener / research / journaling workspace (US, HK, A-shares, etc.) with scores, charts, and AI features.
-商业化筛选 / 研究 / 交易日志工作台（美股、港股、A 股等），含评分、图表与 AI 功能。
-
-**Value:** Product reference for decision workflow UX; paid SaaS, not open source.
-**价值：** 决策流程产品 UX 参考；付费 SaaS，非开源。
+**Value:** Full-stack market UI reference; not an execution engine.
+**价值：** 全栈行情界面参考；非执行引擎。
 
 ---
 
-## Related non-repo material / 相关非仓库材料
+## 13. [KovaView](https://kovaview.com/)
 
-See [Quant-Trading-Resources.md](Quant-Trading-Resources.md) for MicroWorld, awesome-quant, ML-Quant, QuantStart, QuantConnect, etc.
-世界模型、策展列表、周更论文、QuantStart、QuantConnect 等见 [Quant-Trading-Resources.md](Quant-Trading-Resources.md)。
+Commercial screener / research / journaling workspace.
+商业化筛选 / 研究 / 交易日志工作台。
+
+**Value:** Product UX reference; paid SaaS.
+**价值：** 产品 UX 参考；付费 SaaS。
+
+---
+
+## Related / 相关
+
+- [Quant-Trading-Resources.md](Quant-Trading-Resources.md) — sites, digests, platforms  
+- [investing-for-beginners](https://github.com/xuchonglang/investing-for-beginners) — US equities / options / crypto knowledge framework (CN notes; education, not an engine)  
+  美股、期权与加密知识框架（中文笔记；教育向，非引擎）

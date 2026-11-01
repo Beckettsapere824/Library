@@ -1,10 +1,7 @@
 # AI Learning — Machine Learning, Deep Learning & Beyond
 
-Main learning catalog under Artificial Intelligence. Covers classical ML, deep learning, modern LLM practice, and related paths. Expand continuously.
-人工智能下的主学习目录：经典机器学习、深度学习、现代 LLM 实践及相关路径。持续补充。
-
-Prefer free / audit-friendly sources. Build a small project between stages.
-优先免费或可旁听资源。每阶段之间做小项目。
+Main learning catalog under Artificial Intelligence. Expand continuously.
+人工智能下的主学习目录。持续补充。
 
 Related: [ML-Practice](ML-Practice.md) · [LLM-Learning](LLM-Learning.md)
 
@@ -12,13 +9,8 @@ Related: [ML-Practice](ML-Practice.md) · [LLM-Learning](LLM-Learning.md)
 
 ## Suggested order / 建议顺序
 
-1. **Classical ML** (vocabulary + simple models)  
-2. **Deep learning** (networks, train loop, one domain: CV or tabular)  
-3. **From-scratch intuition** (Karpathy / micrograd-style)  
-4. **Modern stack** (Hugging Face, practical transformers)  
-5. **Specialize** (RL, agents, quant ML — only after honest baselines)
-
-1. 经典 ML → 2. 深度学习 → 3. 手写直觉 → 4. 现代栈 → 5. 专项（RL / Agent / 量化 ML）
+1. Classical ML → 2. Deep learning → 3. From-scratch intuition → 4. Modern LLM stack → 5. Specialize  
+1. 经典 ML → 2. 深度学习 → 3. 手写直觉 → 4. 现代 LLM 栈 → 5. 专项
 
 ---
 
@@ -26,35 +18,32 @@ Related: [ML-Practice](ML-Practice.md) · [LLM-Learning](LLM-Learning.md)
 
 ### [Google — Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
 
-Short, free, official intro to core ML vocabulary and TensorFlow-oriented practice.
-免费、官方、偏短的核心 ML 词汇与 TensorFlow 向练习。
+Short free official intro to core ML vocabulary.
+免费官方短课，建立核心 ML 词汇。
 
 **Value:** Fast shared language before longer specializations.
-**价值：** 在长专项之前快速建立共同语言。
+**价值：** 长专项前的共同语言。
 
-### [Kaggle Learn — Intro / Intermediate ML](https://www.kaggle.com/learn)
+### [Kaggle Learn](https://www.kaggle.com/learn)
 
-Bite-sized, hands-on micro-courses with free certificates on real datasets.
-短小动手微课，真实数据集，可拿免费证书。
+Bite-sized hands-on micro-courses.
+短小动手微课。
 
-**Value:** Lowest friction from “watched a video” to “ran a model”.
-**价值：** 从「看过视频」到「跑过模型」摩擦最低。
+**Value:** Lowest friction to a first trained model.
+**价值：** 第一次训模型摩擦最低。
 
-### [Andrew Ng — Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) (Coursera; audit)
+### [Andrew Ng — Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) (audit)
 
-Still the default structured fundamentals path (supervised learning, best practices).
-仍是默认的结构化基础路径（监督学习与实践要点）。
+Structured fundamentals path.
+结构化基础路径。
 
-**Value:** Interview- and industry-recognized baseline.
-**价值：** 面试与业界都认的基础线。
+**Value:** Industry-recognized baseline.
+**价值：** 业界认可的基础线。
 
-### [Stanford CS229](https://cs229.stanford.edu/) (notes / materials)
+### [Stanford CS229](https://cs229.stanford.edu/)
 
-Math-heavier classical ML reference when you outgrow crash courses.
-超出速成课后的偏数学经典 ML 参考。
-
-**Value:** Depth without a paid bootcamp.
-**价值：** 无需付费训练营也能加深。
+Math-heavier classical ML when you outgrow crash courses.
+超出速成课后的偏数学经典 ML。
 
 ---
 
@@ -62,106 +51,77 @@ Math-heavier classical ML reference when you outgrow crash courses.
 
 ### [fast.ai — Practical Deep Learning for Coders](https://course.fast.ai/)
 
-Top-down: train strong models early, then unpack how; free videos + notebooks + book.
-自上而下：先训出强模型再拆解原理；免费视频、Notebook 与书。
+Top-down builder path; free videos and notebooks.
+自上而下建造路径；免费视频与 Notebook。
 
-**Value:** Best practical builder path; pairs well with math-first courses.
-**价值：** 最佳动手建造路径；可与数学优先课程互补。
+### [DeepLearning.AI — Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) (audit)
 
-### [DeepLearning.AI — Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) (Andrew Ng; audit)
+Systematic neural nets track.
+系统化神经网络轨道。
 
-Systematic neural nets, CNNs, sequence models; long but complete.
-系统化神经网络、CNN、序列模型；长但完整。
+### [MIT 6.S191](https://introtodeeplearning.com/) · [Stanford CS231n](http://cs231n.stanford.edu/) · [d2l.ai](https://d2l.ai/)
 
-**Value:** Standard depth track when you want structure and certificates option.
-**价值：** 要结构与可选证书时的标准深度轨道。
-
-### [MIT 6.S191 — Introduction to Deep Learning](https://introtodeeplearning.com/)
-
-Annual MIT intro with lectures and labs; free materials.
-MIT 年度深度学习入门，讲座与实验；材料免费。
-
-**Value:** University-paced survey in a short intensive format.
-**价值：** 大学节奏的短平快总览。
-
-### [Stanford CS231n](http://cs231n.stanford.edu/) (notes + assignments)
-
-Flagship deep learning for computer vision; implement before heavy library use.
-计算机视觉深度学习王牌课；先实现再重度用库。
-
-**Value:** CV path and assignment discipline that transfers to other domains.
-**价值：** CV 路径与作业纪律可迁移到其他领域。
-
-### [Dive into Deep Learning (d2l.ai)](https://d2l.ai/)
-
-Interactive textbook (multi-framework) — read, run, modify.
-可交互教材（多框架）——读、跑、改。
-
-**Value:** Textbook + runnable code in one place.
-**价值：** 教材与可运行代码合一。
+University survey, CV flagship notes, interactive textbook.
+大学总览、CV 王牌笔记、可交互教材。
 
 ---
 
 ## 3. From-scratch & internals / 手写与内部机制
 
-### [Andrej Karpathy — Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
+### [Karpathy — Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
 
-Build from neurons to a GPT-style model in code; widely treated as the internals path.
-从神经元写到类 GPT 模型；普遍视为内部机制路径。
+Neurons → GPT-style model in code.
+从神经元写到类 GPT。
 
-**Value:** Removes “framework magic”; essential before serious LLM work.
-**价值：** 去掉「框架魔法」；认真做 LLM 前几乎必经。
+### Labs: [ML-Practice](ML-Practice.md)
 
-### Labs in this library
-
-- [ML-From-Scratch](ML-Practice.md#1-eriklindernorenml-from-scratch) — pure NumPy algorithms  
-- [machine-learning-experiments](ML-Practice.md#2-trekhlebmachine-learning-experiments) — train + browser demo  
-
-**Value:** Reinforce courses with implementations you can read end-to-end.
-**价值：** 用可读完的实现巩固课程。
+ML-From-Scratch, interactive experiments.
 
 ---
 
-## 4. Modern NLP / LLM stack / 现代 NLP · LLM 栈
+## 4. Modern stack & AI engineering / 现代栈与 AI 工程
 
-### [Hugging Face — LLM Course](https://huggingface.co/learn/llm-course)
+### [Hugging Face LLM Course](https://huggingface.co/learn/llm-course) · [Deep RL Course](https://huggingface.co/learn/deep-rl-course)
 
-Practical transformers, fine-tuning, and ecosystem tooling in the browser-friendly style.
-实用 Transformer、微调与生态工具，偏可动手。
+Practical transformers and RL units.
+实用 Transformer 与 RL 单元。
 
-**Value:** Default open-source LLM engineering on-ramp.
-**价值：** 开源 LLM 工程默认上车点。
+### [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
 
-### [Hugging Face — Deep RL Course](https://huggingface.co/learn/deep-rl-course)
+Learn → build → ship AI engineering path (high community signal).
+学 → 建 → 交付的 AI 工程路径（社区信号强）。
 
-Hands-on reinforcement learning units when you need RL, not only supervised nets.
-需要强化学习（而不只是监督网络）时的动手单元。
+**Value:** Engineering-shaped curriculum beyond single model APIs.
+**价值：** 超出「调一个模型 API」的工程向课程形态。
 
-**Value:** RL without jumping straight into opaque research code.
-**价值：** 不必直接跳进晦涩研究代码也能碰 RL。
+### [dair-ai/ML-Papers-Explained](https://github.com/dair-ai/ML-Papers-Explained)
 
-### See also
+Explanations of key ML concepts and papers.
+关键 ML 概念与论文的讲解向整理。
 
-- [LLM-Learning.md](LLM-Learning.md) in this folder  
-- Stanford CS224N (NLP with Deep Learning) materials when specializing in language  
+**Value:** Paper literacy without drowning in raw PDFs first.
+**价值：** 先建立论文素养，再埋进原始 PDF。
+
+### [stanford-cs336/spring2025-lectures](https://github.com/stanford-cs336/spring2025-lectures)
+
+Stanford CS336 lecture materials (language modeling / related modern track).
+斯坦福 CS336 讲义材料（语言模型等现代轨道）。
+
+**Value:** Course-shaped depth for LM systems when you outgrow short courses.
+**价值：** 超出短课之后的语言模型系统课程深度。
 
 ---
 
 ## 5. What to delay / 可延后
 
-- Heavy **quant ML** until you can backtest a simple rule without leakage ([Quant Finance](../Quant%20Finance/)).  
-- **Agent frameworks** before you can train/fine-tune or at least evaluate a baseline model.  
-- Collecting every course instead of finishing one path + one project.
-
-- 不会诚实回测前，先少碰重型量化 ML。  
-- 不会评估基线模型前，先少堆 Agent 框架。  
-- 不要收集课程清单替代「一条路径 + 一个项目」。
+- Heavy quant ML before honest backtests exist  
+- Agent frameworks before you can evaluate a baseline model  
+- Collecting courses instead of one path + one project  
 
 ---
 
 ## Expansion backlog / 后续可补
 
-- Reinforcement learning depth (Sutton & Barto + clean codebases)  
-- Evaluation / alignment short courses (DeepLearning.AI free shorts)  
-- Vision-language and multimodal practical tracks  
-- Chinese-language lecture mirrors where quality matches  
+- Sutton & Barto + clean RL codebases  
+- Evaluation / alignment short courses  
+- Multimodal practical tracks  
