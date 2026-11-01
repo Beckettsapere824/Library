@@ -1,24 +1,74 @@
 # Useful Tools
 
-Practical templates and workspaces outside pure quant / SE / AI theory lists.
-不在纯量化 / 软工 / AI 理论列表内的实用模板与工作台。
+Practical templates, workspaces, and builder utilities.
+实用模板、工作台与建造工具。
 
 ---
 
 ## 1. [academic-homepage](https://github.com/luost26/academic-homepage)
 
-Jekyll / GitHub Pages template for a personal academic homepage (profile, publications, news, showcase).
-个人学术主页的 Jekyll / GitHub Pages 模板（简介、论文、动态、展示）。
+GitHub Pages template for a personal academic homepage.
+个人学术主页 GitHub Pages 模板。
 
-**Value:** Fast, clean path to a maintainable academic or research personal site.
-**价值：** 快速搭建可维护的学术/研究个人站点。
+**Value:** Fast maintainable research/personal site.
+**价值：** 快速可维护的研究/个人站。
 
 ---
 
-## 2. [infinite-canvas](https://github.com/basketikun/infinite-canvas)
+## 2. [ChenLiu-1996/figures4papers](https://github.com/ChenLiu-1996/figures4papers)
 
-Open-source infinite canvas for AI visual creation: nodes, image/video gen, reference edit, prompt library, optional local agent/MCP control.
-面向 AI 视觉创作的开源无限画布：节点编排、文生图/视频、参考图编辑、提示词库，可选本地 Agent/MCP 控制。
+Python scripts for high-quality figures aimed at top AI venues.
+面向顶会/期刊的高质量科研作图 Python 脚本。
 
-**Value:** Unified visual workflow bench for iterative image/video work with agent hooks.
-**价值：** 带 Agent 钩子的统一视觉迭代工作台。
+**Value:** Publication-grade figure craft without starting from zero each paper.
+**价值：** 发文级作图工艺，避免每篇从零开始。
+
+---
+
+## 3. [ix-infrastructure/Ix](https://github.com/ix-infrastructure/Ix)
+
+Codebase system intelligence for humans and AI — understand a repo quickly.
+面向人与 AI 的代码库系统智能——快速理解仓库。
+
+**Value:** Navigation layer when agents and humans share large codebases.
+**价值：** 人与 Agent 共享大代码库时的导航层。
+
+---
+
+## 4. [ArthurSonzogni/FTXUI](https://github.com/ArthurSonzogni/FTXUI)
+
+C++ functional terminal UI library.
+C++ 函数式终端 UI 库。
+
+**Value:** Solid TUI building blocks if you ship CLI/TUI agents or tools.
+**价值：** 要做 CLI/TUI Agent 或工具时的扎实积木。
+
+---
+
+## 5. [basketikun/infinite-canvas](https://github.com/basketikun/infinite-canvas)
+
+Open infinite canvas for AI visual creation (image/video, agents, prompts).
+面向 AI 视觉创作的开源无限画布。
+
+**Value:** Unified visual iteration bench with agent hooks.
+**价值：** 带 Agent 钩子的统一视觉迭代台。
+
+---
+
+## 6. [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad)
+
+Offline-first knowledge/education server (Wikipedia, books, courses, optional local AI).
+离线优先知识/教育服务器（维基、书籍、课程、可选本地 AI）。
+
+**Value:** Own-your-stack learning mirror when network is constrained.
+**价值：** 网络受限时的自有学习镜像。
+
+---
+
+## 7. [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily)
+
+Ongoing CN list of high-quality GitHub projects, tools, and tech posts.
+持续更新的中文高质量 GitHub 项目/工具/资讯列表。
+
+**Value:** Discovery feed — not a dependency; skim, don’t hoard.
+**价值：** 发现源——不是依赖；浏览即可，勿囤积。

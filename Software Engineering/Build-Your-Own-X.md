@@ -1,9 +1,11 @@
 # Build Your Own X
 
-## [build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
+---
 
-Curated list of step-by-step guides to reimplement core technologies from scratch (databases, Git, Docker, interpreters, neural nets, etc.).
-从零复现核心技术的分步指南合集（数据库、Git、Docker、解释器、神经网络等）。
+## 1. [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
 
-**Value:** Hard-core systems intuition: what you can build, you understand; ideal for depth beyond framework usage.
-**价值：** 硬核系统直觉——能造出来才算理解；适合在框架使用之上做深度训练。
+Curated guides to recreate technologies from scratch (Git, DB, OS, Redis, …).
+从零复现各类技术的策展指南（Git、数据库、OS、Redis…）。
+
+**Value:** Deepest practical “I understand this system” path short of production employment.
+**价值：** 除真实就业外，最深的「我理解这个系统」实践路径。

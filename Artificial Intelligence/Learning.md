@@ -1,7 +1,7 @@
 # AI Learning — Machine Learning, Deep Learning & Beyond
 
-Main learning catalog under Artificial Intelligence. Expand continuously.
-人工智能下的主学习目录。持续补充。
+Main learning catalog. Expand continuously.
+主学习目录。持续补充。
 
 Related: [ML-Practice](ML-Practice.md) · [LLM-Learning](LLM-Learning.md)
 
@@ -9,119 +9,107 @@ Related: [ML-Practice](ML-Practice.md) · [LLM-Learning](LLM-Learning.md)
 
 ## Suggested order / 建议顺序
 
-1. Classical ML → 2. Deep learning → 3. From-scratch intuition → 4. Modern LLM stack → 5. Specialize  
-1. 经典 ML → 2. 深度学习 → 3. 手写直觉 → 4. 现代 LLM 栈 → 5. 专项
+1. Classical ML → 2. Deep learning → 3. From-scratch → 4. Modern LLM / systems → 5. Specialize
 
 ---
 
-## 1. Classical machine learning / 经典机器学习
+## 1. Classical ML / 经典机器学习
 
-### [Google — Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course)
+### [Google ML Crash Course](https://developers.google.com/machine-learning/crash-course) · [Kaggle Learn](https://www.kaggle.com/learn)
 
-Short free official intro to core ML vocabulary.
-免费官方短课，建立核心 ML 词汇。
+Fast vocabulary + hands-on micro courses.
+快速词汇 + 动手微课。
 
-**Value:** Fast shared language before longer specializations.
-**价值：** 长专项前的共同语言。
+### [Andrew Ng ML Specialization](https://www.coursera.org/specializations/machine-learning-introduction) (audit) · [maxim5/cs229-2018-autumn](https://github.com/maxim5/cs229-2018-autumn)
 
-### [Kaggle Learn](https://www.kaggle.com/learn)
+Structured fundamentals; full Stanford CS229 notes/materials mirror.
+结构化基础；斯坦福 CS229 笔记材料镜像。
 
-Bite-sized hands-on micro-courses.
-短小动手微课。
+**Value:** Industry baseline + free course archive.
+**价值：** 业界基线 + 免费课程存档。
 
-**Value:** Lowest friction to a first trained model.
-**价值：** 第一次训模型摩擦最低。
+### [epfml/OptML_course](https://github.com/epfml/OptML_course)
 
-### [Andrew Ng — Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction) (audit)
+EPFL CS-439 Optimization for Machine Learning.
+EPFL 机器学习优化课。
 
-Structured fundamentals path.
-结构化基础路径。
-
-**Value:** Industry-recognized baseline.
-**价值：** 业界认可的基础线。
-
-### [Stanford CS229](https://cs229.stanford.edu/)
-
-Math-heavier classical ML when you outgrow crash courses.
-超出速成课后的偏数学经典 ML。
+**Value:** Optimization depth most intro courses skip.
+**价值：** 入门课常跳过的优化深度。
 
 ---
 
 ## 2. Deep learning / 深度学习
 
-### [fast.ai — Practical Deep Learning for Coders](https://course.fast.ai/)
+### [fast.ai](https://course.fast.ai/) · [DeepLearning.AI Specialization](https://www.coursera.org/specializations/deep-learning) · [MIT 6.S191](https://introtodeeplearning.com/) · [CS231n](http://cs231n.stanford.edu/) · [d2l.ai](https://d2l.ai/)
 
-Top-down builder path; free videos and notebooks.
-自上而下建造路径；免费视频与 Notebook。
+Builder path, structured specialization, MIT survey, CV flagship, interactive textbook.
 
-### [DeepLearning.AI — Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) (audit)
+### [GeostatsGuy/MachineLearningDemos](https://github.com/GeostatsGuy/MachineLearningDemos)
 
-Systematic neural nets track.
-系统化神经网络轨道。
+Well-documented Jupyter demos for common ML workflows.
+常见 ML 工作流的详细 Jupyter 演示。
 
-### [MIT 6.S191](https://introtodeeplearning.com/) · [Stanford CS231n](http://cs231n.stanford.edu/) · [d2l.ai](https://d2l.ai/)
-
-University survey, CV flagship notes, interactive textbook.
-大学总览、CV 王牌笔记、可交互教材。
+**Value:** Copy-and-understand lab style.
+**价值：** 可复制理解的实验风格。
 
 ---
 
-## 3. From-scratch & internals / 手写与内部机制
+## 3. From-scratch / 手写
 
-### [Karpathy — Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
+### [Karpathy Zero to Hero](https://karpathy.ai/zero-to-hero.html) · [ML-Practice](ML-Practice.md)
 
-Neurons → GPT-style model in code.
-从神经元写到类 GPT。
-
-### Labs: [ML-Practice](ML-Practice.md)
-
-ML-From-Scratch, interactive experiments.
+Internals + NumPy implementations + interactive experiments.
 
 ---
 
-## 4. Modern stack & AI engineering / 现代栈与 AI 工程
+## 4. Modern LLM, agents, ML systems / 现代 LLM · Agent · 系统
 
-### [Hugging Face LLM Course](https://huggingface.co/learn/llm-course) · [Deep RL Course](https://huggingface.co/learn/deep-rl-course)
+### [Hugging Face LLM / Deep RL courses](https://huggingface.co/learn)
 
 Practical transformers and RL units.
-实用 Transformer 与 RL 单元。
 
 ### [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
 
-Learn → build → ship AI engineering path (high community signal).
-学 → 建 → 交付的 AI 工程路径（社区信号强）。
+Learn → build → ship AI engineering.
+学 → 建 → 交付 AI 工程。
 
-**Value:** Engineering-shaped curriculum beyond single model APIs.
-**价值：** 超出「调一个模型 API」的工程向课程形态。
+### [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book) — [mlsysbook.ai](https://mlsysbook.ai)
 
-### [dair-ai/ML-Papers-Explained](https://github.com/dair-ai/ML-Papers-Explained)
+*Machine Learning Systems* (Harvard CS249r): foundations, scaling, agentic AI, physical AI.
+《机器学习系统》（哈佛 CS249r）：基础、扩展、Agentic AI、物理 AI。
 
-Explanations of key ML concepts and papers.
-关键 ML 概念与论文的讲解向整理。
+**Value:** Systems view of ML — the layer under notebooks.
+**价值：** ML 的系统视角——Notebook 之下那一层。
 
-**Value:** Paper literacy without drowning in raw PDFs first.
-**价值：** 先建立论文素养，再埋进原始 PDF。
+### [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book)
 
-### [stanford-cs336/spring2025-lectures](https://github.com/stanford-cs336/spring2025-lectures)
+《深入理解 AI Agent》开源正文、PDF 与按章代码。
+Open book + chapter code on AI agent design and engineering practice.
 
-Stanford CS336 lecture materials (language modeling / related modern track).
-斯坦福 CS336 讲义材料（语言模型等现代轨道）。
+**Value:** CN-first structured agent engineering text.
+**价值：** 中文优先的结构化 Agent 工程读本。
 
-**Value:** Course-shaped depth for LM systems when you outgrow short courses.
-**价值：** 超出短课之后的语言模型系统课程深度。
+### [dair-ai/ML-Papers-Explained](https://github.com/dair-ai/ML-Papers-Explained) · [stanford-cs336/spring2025-lectures](https://github.com/stanford-cs336/spring2025-lectures)
+
+Paper/concept explainers; Stanford CS336 lecture materials.
+论文/概念讲解；CS336 讲义。
+
+### [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) · [haolpku/Omni-Edu](https://github.com/haolpku/Omni-Edu)
+
+Lifelong personalized tutoring product; open foundation models for learning/teaching.
+终身个性化辅导产品；学习/教学向开放基础模型。
+
+**Value:** Education-side AI systems as design references.
+**价值：** 教育侧 AI 系统作设计参考。
 
 ---
 
-## 5. What to delay / 可延后
+## 5. Delay / 可延后
 
-- Heavy quant ML before honest backtests exist  
-- Agent frameworks before you can evaluate a baseline model  
-- Collecting courses instead of one path + one project  
+Heavy quant ML before honest backtests; agent frameworks before baseline evaluation; course collecting without projects.
 
 ---
 
-## Expansion backlog / 后续可补
+## Backlog / 后续
 
-- Sutton & Barto + clean RL codebases  
-- Evaluation / alignment short courses  
-- Multimodal practical tracks  
+Sutton & Barto + clean RL; evaluation/alignment shorts; multimodal tracks.

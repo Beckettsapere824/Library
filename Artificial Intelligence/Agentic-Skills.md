@@ -1,87 +1,104 @@
 # Agentic Skills
 
-High-signal skill packs agents actually load (engineering, UI, science, education).
-Agent 会真正加载的高信号 Skill 包（工程、界面、科学、教育）。
+High-signal skill packs agents actually load.
+Agent 会真正加载的高信号 Skill 包。
 
 ---
 
-## 1. [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
+## 1. [mattpocock/skills](https://github.com/mattpocock/skills)
 
-Production-grade engineering skills for AI coding agents (from a widely followed engineering leader).
-面向 AI 编程 Agent 的生产级工程 Skills（来自高影响力工程作者）。
+“Skills for Real Engineers” — practical agent skills from a working engineer’s `.agents` directory.
+「给真工程师的 Skills」——来自一线工程师 `.agents` 目录的实用技能包。
 
-**Value:** Default “how seniors want agents to ship code” skill set; top of the skills tier by signal.
-**价值：** 默认的「资深工程师希望 Agent 如何交代码」技能集；Skills 档信号最强之一。
-
----
-
-## 2. [emilkowalski/skills](https://github.com/emilkowalski/skills)
-
-Design-engineering skills (animation curves, duration, review tables, Apple-style motion) from the author of Sonner.
-设计工程类 Skill（动画曲线、时长、评审表、Apple 风格动效），来自 Sonner 作者。
-
-Install via `npx skills@latest add emilkowalski/skills`.
-安装：`npx skills@latest add emilkowalski/skills`。
-
-**Value:** Encodes UI taste rules agents lack by default.
-**价值：** 把 Agent 默认缺乏的界面品味规则写死。
+**Value:** High community signal for day-to-day coding-agent craft, not demo-only prompts.
+**价值：** 日常编程 Agent 工艺的高社区信号，而非演示向提示词。
 
 ---
 
-## 3. [JimLiu/baoyu-design](https://github.com/JimLiu/baoyu-design)
+## 2. [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 
-Run design-agent workflows locally as a skill (Cursor, Codex, DeepSeek Harness, etc.): polished UI mockups, prototypes, decks, wireframes as self-contained HTML.
-把设计 Agent 工作流以 Skill 形式本地运行（Cursor、Codex、DeepSeek Harness 等）：成品级 mockup、原型、幻灯与线框，输出独立 HTML。
+Production-grade engineering skills for AI coding agents.
+面向 AI 编程 Agent 的生产级工程 Skills。
 
-**Value:** Design output without locking to a single hosted design product.
-**价值：** 不绑死单一托管设计产品也能出设计交付物。
-
----
-
-## 4. [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
-
-Large validated skill library for science agents (bio and related domains + database coverage).
-面向科学 Agent 的大规模已校验 Skill 库（生物等相关领域 + 数据库覆盖）。
-
-**Value:** Domain skills beyond generic coding — use when agents must touch real scientific workflows.
-**价值：** 超出通用编程的领域技能——Agent 要碰真实科研流程时用。
+**Value:** Senior engineering defaults agents lack out of the box.
+**价值：** Agent 默认缺少的资深工程习惯。
 
 ---
 
-## 5. [DozenTwelve/Papermorph](https://github.com/DozenTwelve/Papermorph)
+## 3. [emilkowalski/skills](https://github.com/emilkowalski/skills)
 
-Turns textbook PDFs into narrated, animated, interactive static web lessons.
-把教材 PDF 变成旁白 + 动画 + 可交互静态网页课。
+Design-engineering skills (motion, review tables, Apple-style craft) from the Sonner author.
+设计工程 Skills（动效、评审表、Apple 风格工艺），Sonner 作者。
 
-**Value:** Teaching artifacts agents can ship from static knowledge.
-**价值：** 从静态知识做出 Agent 可交付的教学产物。
-
----
-
-## 6. [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail)
-
-Practical multi-step agent skill / workflow tooling.
-实用多步 Agent skill / 工作流工具。
-
-**Value:** Operational patterns beyond one-shot prompts.
-**价值：** 超出一次性提示词的操作范式。
+**Value:** Stops generic “AI UI slop” with explicit taste rules.
+**价值：** 用明确品味规则抑制通用 AI 界面垃圾感。
 
 ---
 
-## 7. [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)
+## 4. [JimLiu/baoyu-design](https://github.com/JimLiu/baoyu-design)
 
-Karpathy-oriented learning and coding habits packaged as skills.
-Karpathy 风格学习与编码习惯的 Skill 化封装。
+Local design-agent skill: mockups, prototypes, decks, wireframes as self-contained HTML.
+本地设计 Agent Skill：mockup / 原型 / 幻灯 / 线框 → 独立 HTML。
 
-**Value:** Aligns agent behavior with high-quality CS teaching instincts.
-**价值：** 让 Agent 行为贴近高质量 CS 教学直觉。
+**Value:** Design delivery without a single hosted design lock-in.
+**价值：** 不绑死单一托管设计产品也能出设计交付。
 
 ---
 
-## 8. [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) · [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)
+## 5. [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
 
-Comprehension-oriented and reach/distribution-oriented skill packs.
-理解向与触达/分发向 Skill 包。
+Large validated science skill library for turning agents into domain scientists.
+大规模已校验科学 Skill 库，把 Agent 变成领域科研助手。
 
-**Value:** Research loop and GTM patterns alongside pure coding skills.
-**价值：** 在纯编码之外补研究循环与增长向模式。
+**Value:** Domain depth beyond generic coding skills.
+**价值：** 超出通用编程的领域深度。
+
+---
+
+## 6. [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
+
+Agent skill that researches a topic across Reddit, X, YouTube, HN, Polymarket, and the web, then synthesizes a grounded summary.
+跨 Reddit / X / YouTube / HN / Polymarket / 网页检索并综合近期摘要的 Agent Skill。
+
+**Value:** Fresh multi-source research loop instead of single-search RAG.
+**价值：** 多源新鲜研究循环，而非单次搜索式 RAG。
+
+---
+
+## 7. [chubbyguan/chubbyskills](https://github.com/chubbyguan/chubbyskills)
+
+CN-channel content intake skills (Douyin / Bilibili / Xiaohongshu / WeChat / X / podcasts) into a personal knowledge base + daily brief.
+中文全渠道内容采集 Skill（抖音/B站/小红书/公众号/X/播客）进个人知识库与每日简报。
+
+**Value:** Practical CN information diet for agent knowledge bases.
+**价值：** 面向 Agent 知识库的实用中文信息饮食。
+
+---
+
+## 8. [tanweai/pua](https://github.com/tanweai/pua)
+
+High-agency “PIP” framing skill — pushes the agent toward senior-engineer ownership behavior.
+高能动性「绩效改进」叙事 Skill——逼 Agent 按资深工程师所有权行事。
+
+**Value:** Behavioral pressure skill; use deliberately, not as sole system prompt.
+**价值：** 行为压力型 Skill；刻意使用，勿当唯一系统提示。
+
+---
+
+## 9. [DozenTwelve/Papermorph](https://github.com/DozenTwelve/Papermorph)
+
+Turns books/PDFs into narrated interactive web lessons.
+把书/PDF 变成旁白式可交互网页课。
+
+**Value:** Teaching artifacts from static material.
+**价值：** 从静态材料做出教学产物。
+
+---
+
+## 10. [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) · [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) · [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything) · [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) · [neilsonnn/image-blaster](https://github.com/neilsonnn/image-blaster)
+
+Laziness-as-taste coding skill; Karpathy habits; code→knowledge-graph understanding; internet-reach skills; image-to-world skillset.
+「懒即品味」编码 Skill；Karpathy 习惯；代码理解图；全网触达；图像到世界技能集。
+
+**Value:** Complementary behavior and research/visual skills around the core engineering packs.
+**价值：** 围绕核心工程包的行为与研究/视觉补充。

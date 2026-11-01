@@ -1,154 +1,116 @@
 # Trading & Finance Repositories
 
-Ordered by priority for building or studying systematic / AI-assisted trading systems (production engine and accurate simulation first; retail UI and commercial products last).
-按优先级排列：生产级引擎与准确仿真优先，零售界面与商业产品靠后。
+Priority: production engines and accurate simulation first; retail UI last.
+优先级：生产引擎与准确仿真优先，零售界面靠后。
 
-Sources include curated picks and high-signal items from the maintainer’s GitHub stars.
-来源含策展选型与维护者 GitHub stars 中的高信号项。
+Includes high-signal items from the maintainer’s GitHub stars.
+含维护者 GitHub stars 中的高信号项。
 
 ---
 
 ## 1. [nautilus_trader](https://github.com/nautechsystems/nautilus_trader)
 
-Production-grade open-source trading engine with a Rust core and Python control plane.
-生产级开源交易引擎，Rust 核心 + Python 控制面。
+Production-grade Rust-native trading engine; research, deterministic backtest, live multi-venue.
+生产级 Rust 原生交易引擎；研究、确定性回测、多市场实盘。
 
-Covers research, deterministic backtest, and live multi-venue execution in one event-driven architecture.
-在同一套事件驱动架构下覆盖研究、确定性回测与多市场实盘执行。
-
-**Value:** Same semantics from simulation to live; suitable as a real system backbone, not only a notebook demo.
-**价值：** 仿真与实盘语义一致，适合作为真实系统骨架，而非仅 Notebook 演示。
+**Value:** Same semantics simulation → live; real system backbone.
+**价值：** 仿真到实盘语义一致；真实系统骨架。
 
 ---
 
 ## 2. [hftbacktest](https://github.com/nkaz001/hftbacktest)
 
-High-frequency and market-making backtester (Python/Numba and Rust) using full tick and L2/L3 order-book data.
-高频与做市回测工具（Python/Numba 与 Rust），使用完整 tick 与 L2/L3 盘口数据。
+HFT/MM backtester with tick and L2/L3 book, latency and queue models.
+高频/做市回测；tick 与 L2/L3 盘口、延迟与队列模型。
 
-Models feed latency, order latency, and queue position for fills; supports multi-asset and limited live bot paths (e.g. Binance/Bybit).
-建模行情延迟、报单延迟与队列位置成交；支持多资产，并有有限实盘路径（如 Binance/Bybit）。
-
-**Value:** Realistic HFT/MM research where naive bar backtests are misleading.
-**价值：** 在朴素 K 线回测会失真的场景下，做更贴近真实的高频/做市研究。
+**Value:** Realistic when bar backtests lie.
+**价值：** K 线回测会撒谎时的真实感。
 
 ---
 
 ## 3. [hikyuu](https://github.com/fasiondog/hikyuu)
 
-High-performance quant framework (C++ core + Python) focused on strategy analysis and very fast backtesting.
-高性能量化框架（C++ 核心 + Python），侧重策略分析与极速回测。
+C++/Python high-performance quant framework; fast backtest; CN-oriented research.
+C++/Python 高性能量化框架；极速回测；偏中文市场研究。
 
-Strong China-market research workflow orientation.
-对 A 股等研究工作流较友好。
-
-**Value:** Engine alternative when you need speed and a mature CN-oriented quant stack.
-**价值：** 需要速度与成熟中文市场向栈时的引擎备选。
+**Value:** Speed + mature CN quant stack option.
+**价值：** 速度 + 成熟中文市场向栈备选。
 
 ---
 
 ## 4. [FinRL-Trading](https://github.com/AI4Finance-Foundation/FinRL-Trading)
 
-AI-native modular infrastructure for quantitative trading from the FinRL / AI4Finance line (FinRL-X).
-AI4Finance 路线的 AI 原生模块化量化交易基础设施（FinRL-X）。
+AI-native modular quant trading infrastructure (FinRL-X).
+AI 原生模块化量化交易基础设施（FinRL-X）。
 
-**Value:** Bridge between RL/ML research code and trading-system modularity.
-**价值：** 连接 RL/ML 研究代码与交易系统模块化。
+**Value:** Bridge RL/ML research code and trading modularity.
+**价值：** 连接 RL/ML 研究代码与交易模块化。
 
 ---
 
 ## 5. [gs-quant](https://github.com/goldmansachs/gs-quant)
 
-Goldman Sachs open Python toolkit for quantitative finance (risk, pricing-oriented building blocks).
-高盛开源的量化金融 Python 工具包（风险、定价向积木）。
+Goldman Sachs open Python quant toolkit.
+高盛开源 Python 量化工具包。
 
-**Value:** Institutional library shape and API taste; study patterns even if you do not run GS workflows.
-**价值：** 机构库形态与 API 品味；即使不跑高盛流程也可学其模式。
+**Value:** Institutional API taste and building blocks.
+**价值：** 机构 API 品味与积木。
 
 ---
 
 ## 6. [anthropics/financial-services](https://github.com/anthropics/financial-services)
 
-Anthropic reference agents, skills, and connectors for investment banking, equity research, PE, and wealth workflows.
-Anthropic 面向投行、股票研究、PE 与财富管理的参考 Agent、Skills 与数据连接器。
+Anthropic FSI reference agents, skills, connectors.
+Anthropic 金融服务业参考 Agent / Skills / 连接器。
 
-**Value:** Institutional FSI agent patterns from a major lab.
-**价值：** 来自主流实验室的机构金融 Agent 范式。
-
----
-
-## 7. [TradingAgents](https://github.com/TauricResearch/TradingAgents)
-
-Multi-agent LLM trading framework that mirrors a desk: fundamental, sentiment, technical analysts, trader, and risk roles.
-多智能体 LLM 交易框架，结构类似交易台：基本面、情绪、技术分析、交易员与风控角色。
-
-**Value:** Clear multi-agent trading research scaffold with published design (arXiv).
-**价值：** 结构清晰的多智能体交易研究脚手架，有公开论文设计。
+**Value:** Institutional agent workflow templates.
+**价值：** 机构 Agent 工作流模板。
 
 ---
 
-## 8. [TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN)
+## 7. [TradingAgents](https://github.com/TauricResearch/TradingAgents) · [TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN)
 
-Chinese-enhanced multi-agent stock research system derived from TradingAgents, oriented to A-shares (also HK/US).
-基于 TradingAgents 的中文增强多智能体股票研究系统，面向 A 股（亦支持港股/美股）。
+Multi-agent LLM trading research desk; CN-enhanced A-share oriented fork.
+多智能体 LLM 交易研究台；中文增强 A 股向分支。
 
-**Value:** Best-fit entry for Chinese-market multi-agent research and teaching.
-**价值：** 中文市场多智能体研究与教学的优先入口。
-
----
-
-## 9. [OpenAlice](https://github.com/TraderAlice/OpenAlice)
-
-AI trading agent product covering equities, crypto, commodities, forex, and macro — research through position lifecycle.
-覆盖股、加密、商品、外汇与宏观的 AI 交易 Agent 产品：从研究到持仓生命周期。
-
-**Value:** End-to-end “one-person desk” agent product reference (starred; evaluate claims carefully).
-**价值：** 端到端「一人交易台」Agent 产品参考（来自 stars；主张需自行验证）。
+**Value:** Clear multi-agent research scaffold (+ CN market entry).
+**价值：** 清晰多智能体研究脚手架（+ 中文市场入口）。
 
 ---
 
-## 10. [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)
+## 8. [OpenAlice](https://github.com/TraderAlice/OpenAlice) · [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading)
 
-Personal trading-agent product stack (LLM + tools + backtest + UI) from HKUDS.
-港大数据科学团队的个人交易 Agent 产品栈（LLM + 工具 + 回测 + 界面）。
+End-to-end AI trading agent products (multi-asset / personal agent stack).
+端到端 AI 交易 Agent 产品（多资产 / 个人 Agent 栈）。
 
-**Value:** End-to-end “agent + trading” product reference; high activity.
-**价值：** 端到端「Agent + 交易」产品参考；活跃度高。
-
----
-
-## 11. [free-stockdb](https://github.com/hello245m/free-stockdb)
-
-Local-first A-share quant data engine: daily/minute bars, incremental sync, adjust factors, indicators, multiple query APIs.
-本地优先的 A 股量化数据引擎：日/分钟 K、增量同步、复权、指标与多种查询 API。
-
-**Value:** Removes remote API rate limits for full-market local research on China equities.
-**价值：** 让 A 股全市场本地研究摆脱远程 API 限频。
+**Value:** Product-shaped references; validate claims yourself.
+**价值：** 产品形态参考；主张自行验证。
 
 ---
 
-## 12. [OpenStock](https://github.com/Open-Dev-Society/OpenStock)
+## 9. [free-stockdb](https://github.com/hello245m/free-stockdb)
 
-Open-source stock web app (Next.js + Finnhub + TradingView).
-开源股票 Web 应用（Next.js + Finnhub + TradingView）。
+Local-first A-share quant data engine (bars, sync, adjust, indicators, APIs).
+本地优先 A 股量化数据引擎。
 
-**Value:** Full-stack market UI reference; not an execution engine.
-**价值：** 全栈行情界面参考；非执行引擎。
+**Value:** Full-market local research without remote rate limits.
+**价值：** 全市场本地研究，摆脱远程限频。
 
 ---
 
-## 13. [KovaView](https://kovaview.com/)
+## 10. [OpenStock](https://github.com/Open-Dev-Society/OpenStock) · [KovaView](https://kovaview.com/)
 
-Commercial screener / research / journaling workspace.
-商业化筛选 / 研究 / 交易日志工作台。
+Open market UI stack; commercial research/journaling SaaS.
+开源行情 UI；商业研究/日志 SaaS。
 
-**Value:** Product UX reference; paid SaaS.
-**价值：** 产品 UX 参考；付费 SaaS。
+**Value:** UI/UX references, not execution cores.
+**价值：** UI/UX 参考，非执行核心。
 
 ---
 
 ## Related / 相关
 
-- [Quant-Trading-Resources.md](Quant-Trading-Resources.md) — sites, digests, platforms  
-- [investing-for-beginners](https://github.com/xuchonglang/investing-for-beginners) — US equities / options / crypto knowledge framework (CN notes; education, not an engine)  
-  美股、期权与加密知识框架（中文笔记；教育向，非引擎）
+- [Quant-Trading-Resources.md](Quant-Trading-Resources.md)  
+- [xuchonglang/investing-for-beginners](https://github.com/xuchonglang/investing-for-beginners) — US equities / options / crypto knowledge framework (education)  
+- [TheTom/turboquant_plus](https://github.com/TheTom/turboquant_plus) — starred quant-adjacent project; inspect before depending  
+  stars 中的量化相邻项目；依赖前自行审查  
